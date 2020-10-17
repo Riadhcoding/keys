@@ -31,11 +31,11 @@ logo = """
 def list():
     print("\003[1;31m[1] \033[1;34mAdd keys in Termux")
     time.sleep(0.3)
-    print("\033[1;31m[2] \033[1;34mRestore the default keys")
+    print("\003[1;31m[2] \033[1;34mRestore the default keys")
     time.sleep(0.3)
     print("\003[1;31m[3] \033[1;34mYoutube")
     time.sleep(0.3)
-    print("\033[1;31m[0] \033[1;34mExit")
+    print("\003[1;31m[0] \033[1;34mExit")
     time.sleep(0.3)
     print("")
 clear()
